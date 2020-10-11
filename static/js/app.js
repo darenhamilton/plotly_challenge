@@ -100,10 +100,10 @@ function getInfo(id) {
         // select demographic panel to put data
         var demographicInfo = d3.select("#sample-metadata");
 
-        // empty the demographic info panel before getting new id info
+        // empty the panel before getting new id info
         demographicInfo.html("");
 
-        //  get demographic info for the id and append the info to the panel
+        //  get info for the id and append to the panel
         Object.entries(result).forEach((key) => {
             demographicInfo.append("h5").text(key[0] + ": " + key[1] + "\n");
         });
