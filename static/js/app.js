@@ -55,7 +55,8 @@ function getPlot(id) {
             mode: "markers",
             marker: {
                 size: samples.sample_values,
-                color: samples.otu_ids
+                color: samples.otu_ids,
+                colorscale: "Portland"
             },
             text: samples.otu_labels
 
