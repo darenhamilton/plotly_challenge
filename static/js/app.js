@@ -7,13 +7,13 @@ function getPlot(id) {
         // filter samples by id
         var samples = data.samples.filter(s => s.id.toString() === id)[0]
 
-        // Getting the top 10 
+        //get top 10 
         var sampleValues = samples.sample_values.slice(0, 10).reverse();
 
         // get top 10 otu ids. 
         var otuTop = (samples.otu_ids.slice(0, 10)).reverse();
         
-        // get otus and add label
+        // get otu and add label
         var otuId = otuTop.map(d => "OTU " + d)
 
         // get the top 10 labels
