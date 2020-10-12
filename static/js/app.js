@@ -10,7 +10,7 @@ function getPlot(id) {
         //get top 10 
         var sampleValues = samples.sample_values.slice(0, 10).reverse();
 
-        // get top 10 otu ids. 
+        // get top 10 otu ids
         var otuTop = (samples.otu_ids.slice(0, 10)).reverse();
         
         // get otu and add label
