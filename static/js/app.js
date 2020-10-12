@@ -37,9 +37,6 @@ function getPlot(id) {
         // create for layout
         var layout = {
             title: "Top 10 Operational Taxonomic Units",
-            yaxis: {
-                tickmode: "linear",
-            },
             margin: {
                 l: 100,
                 r: 100,
