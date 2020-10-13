@@ -67,6 +67,9 @@ function getPlot(id) {
             xaxis: {
                 title: "Operational Taxonomic Unit ID"
             },
+            yaxis: {
+                title: "Sample Values"
+            },
             height: 700,
             width: 1200
         };
